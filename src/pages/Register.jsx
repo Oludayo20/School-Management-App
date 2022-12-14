@@ -17,10 +17,10 @@ const Register = () => {
           <Link to="/">
             <i className="far fa-arrow-square-left fa-2x"></i>
           </Link>
-          {history.location.pathname == '/studentLogin' && (
+          {history.location.pathname == '/studentRegister' && (
             <>
               <h4 style={{ margin: 'auto', marginBottom: '10px' }}>
-                Student Login
+                Student Register
               </h4>
               <img
                 src="Images/student4.jpg"
@@ -30,26 +30,13 @@ const Register = () => {
               <br />
             </>
           )}
-          {history.location.pathname == '/teacherLogin' && (
+          {history.location.pathname == '/teacherRegister' && (
             <>
               <h4 style={{ margin: 'auto', marginBottom: '20px' }}>
-                Teacher Login
+                Teacher Register
               </h4>
               <img
                 src="Images/backgg.jpg"
-                alt="Student Image"
-                className="landing_img"
-              />
-              <br />
-            </>
-          )}
-          {history.location.pathname == '/adminLogin' && (
-            <>
-              <h4 style={{ margin: 'auto', marginBottom: '20px' }}>
-                Admin Login
-              </h4>
-              <img
-                src="Images/admin2.jpg"
                 alt="Student Image"
                 className="landing_img"
               />

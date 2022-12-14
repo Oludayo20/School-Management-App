@@ -26,9 +26,6 @@ function App() {
         <Route path="/teacherRegister">
           <Register />
         </Route>
-        <Route path="/adminRegister">
-          <Register />
-        </Route>
         <Route path="+">
           <LandingPage />
         </Route>
